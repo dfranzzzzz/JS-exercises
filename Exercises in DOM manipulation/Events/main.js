@@ -10,18 +10,18 @@
 // });
 
 // ----------------------------------------------------
-// //Practice 2
-// function alertFunction() {
-//   alert("One more time!");
-// }
+//Practice 2
+function alertFunction() {
+  alert("One more time!");
+}
 
-// const btn = document.querySelector('button');
+const btn = document.querySelector('button');
 
-// // method 2
-// // btn.onclick = alertFunction;
+// method 2
+btn.onclick = alertFunction;
 
-// // method 3
-// btn.addEventListener('click', alertFunction);
+// method 3 
+btn.addEventListener('click', alertFunction);
 
 // ----------------------------------------------------
 // // Practice 3
@@ -40,15 +40,15 @@
 // });
 
 // ---------------------------------------------------
-// //Practice 4
-// buttons is a node list. It looks and acts much like an array.
-const buttons = document.querySelectorAll('button');
+// // Practice 4
+// // buttons is a node list. It looks and acts much like an array.
+// const buttons = document.querySelectorAll('button');
 
-// we use the .forEach method to iterate through each button
-buttons.forEach((button) => {
+// // we use the .forEach method to iterate through each button
+// buttons.forEach((button) => {
 
-  // and for each one we add a 'click' listener
-  button.addEventListener('click', () => {
-    alert(button.id);
-  });
-});
+//   // and for each one we add a 'click' listener
+//   button.addEventListener('click', () => {
+//     alert(button.id);
+//   });
+// });
